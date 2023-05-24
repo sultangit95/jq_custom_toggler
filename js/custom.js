@@ -26,9 +26,7 @@ $(function(){
   // ===== background js ends =====
   // ===== toggler js starts =====
   $(".toggler").click(function(){
-    $(".list").slideToggle();
+    $(".list").slideToggle(0);
   });
   // ===== toggler js ends =====
-
-
 });
