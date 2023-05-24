@@ -1,0 +1,34 @@
+@media (min-width: 320px) and (max-width: 575px){
+  .menu{
+    position: relative;
+    padding: 20px 0;
+    position: fixed;
+    border-bottom: 1px solid #646464;
+  }
+  .menu .logo h1{
+    font-size: 28px;
+  }
+  .menu .container .main-menu .list{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #000000b1;
+  }
+  .menu .container .main-menu .list li{
+    border-bottom: 1px solid #646464;
+  }
+  .menu .container .main-menu .toggler{
+    display: block;
+  }
+  .menu .container .main-menu .list li .summer::after,
+  .menu .container .main-menu .list li .spring::after,
+  .menu .container .main-menu .list li .monsoon::after,
+  .menu .container .main-menu .list li .autumn::after,
+  .menu .container .main-menu .list li .p-winter::after,
+  .menu .container .main-menu .list li .winter::after{
+    top: 0;
+  }
+}
